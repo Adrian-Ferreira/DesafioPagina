@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <img src="assets\imagens\predio.jpg">
+        </div>
+    </div>
+    <div *ngFor='let _tarefa of minhaTarefa'>
+        <div class="row">
+            <div class="col-md-12">
+                <h1><u>somo nosis</u></h1>
+                <p>tarefa: {{ _tarefa.nome }} </p>
+                <p>responsavel: {{ _tarefa.responsavel }} </p>
+            </div>
+        </div>
+    </div>
+</div>
